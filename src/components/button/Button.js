@@ -1,8 +1,11 @@
 import {StyleButton, ButtonText} from './Style';
-import  {Shield}  from '../icons'
+import  {Shield,PlusShield,PlusImage,PlusNotes}  from '../icons'
 
 const Icons = {
-    Shield: <Shield/>
+    Shield: <Shield/>,
+    PlusShield: <PlusShield/>,
+    PlusImage: <PlusImage/>,
+    PlusNotes: <PlusNotes/>
 }
 
 export const Button = ({iconInit ,text, iconEnd}) => {
