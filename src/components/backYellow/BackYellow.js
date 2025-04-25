@@ -1,13 +1,13 @@
 import {StylesBackYellow, BaseView, StylesBlockUp} from './Styles';
-import { ButtonText } from '../button/Style';
+import { Text } from '../text/Text';
 
-export const BackYellow = () => {
+export const BackYellow = ({text}) => {
     return(
         <BaseView>
             <StylesBlockUp>
-                <ButtonText>
-                    Nota
-                </ButtonText>
+                <Text>
+                    {text}
+                </Text>
             </StylesBlockUp>
             <StylesBackYellow>
 

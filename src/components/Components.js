@@ -5,3 +5,4 @@ export * from './navbar/Navbar';
 export * from './buttonMenu/ButtonMenu';
 export * from './icons';
 export * from './backYellow/BackYellow';
+export * from './text/Text';
