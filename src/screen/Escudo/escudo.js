@@ -6,4 +6,4 @@ export const Escudo = () => {
             <BackYellow text={'Nota'}/>
         </Background>
     )
-}  
+}

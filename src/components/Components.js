@@ -6,3 +6,4 @@ export * from './buttonMenu/ButtonMenu';
 export * from './icons';
 export * from './backYellow/BackYellow';
 export * from './text/Text';
+export * from './tab/Tab';

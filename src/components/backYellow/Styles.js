@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
+export const StylesBaseViewBlockUp = styled.View`
+    height:5%;
+    flex-direction:row;
+    
+`;
+
 export const BaseView = styled.View`
-    flex:1;
     margin-left: 10%;
     width: 100%;
     justify-content:flex-end;
@@ -18,9 +23,8 @@ export const StylesBackYellow = styled.View`
 export const StylesBlockUp = styled.View`
     background-color: #FEDAA5;
     width: 15%;
-    height:5%;
+    height:100%;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     justify-content:center;
 `;
-
