@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const StyleNavbar = styled.View`
-    padding: 10px;
+    padding: ${({theme})=> theme.metrics.px(10)}px;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -10,9 +10,9 @@ export const StyleNavbar = styled.View`
 
 export const TextNavbar = styled.Text`
     color: white;          
-    font-size: 25px;       
+    font-size: ${({theme}) => theme.metrics.px(25)}px;       
     font-weight: bold;
-    margin-left:10px;   
-    margin-right: 10px;
+    margin-left:${({theme}) => theme.metrics.px(10)}px;   
+    margin-right: ${({theme}) => theme.metrics.px(10)}px;
     flex:1;
 `;

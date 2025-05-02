@@ -17,14 +17,13 @@ export const StylesBackYellow = styled.View`
     background-color: #FEDAA5;
     width: 90%;
     height:92%;
-    border-top-right-radius:10px;
+    border-top-right-radius:${({theme}) => theme.metrics.px(10)}px;
 `;
 
 export const StylesBlockUp = styled.View`
     background-color: #FEDAA5;
-    width: 15%;
     height:100%;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
+    border-top-left-radius:${({theme}) => theme.metrics.px(10)}px;
+    border-top-right-radius:${({theme}) => theme.metrics.px(10)}px;
     justify-content:center;
 `;

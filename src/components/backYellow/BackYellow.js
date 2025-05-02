@@ -12,11 +12,7 @@ export const BackYellow = ({text}) => {
                         {text}
                     </Text>
                 </StylesBlockUp>
-                <Tab>
-                    <Text>
-                        
-                    </Text>
-                </Tab>
+                <Tab title={'Mapa'}/>
             </StylesBaseViewBlockUp>
             
             <StylesBackYellow>

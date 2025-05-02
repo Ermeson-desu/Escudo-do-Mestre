@@ -1,7 +1,12 @@
 import { StylesTab } from "./styles";
+import { Text } from "../text/Text";
 
-export const Tab = () => {
+export const Tab = ({title}) => {
     return(
-        <StylesTab/>
+        <StylesTab>
+            <Text>
+                {title}
+            </Text>
+        </StylesTab>
     )
 }
